@@ -68,11 +68,6 @@ const AboutMe = () => {
         />
       </Grid>
     </Grid>
-    <Snackbar
-      open={open}
-      closeFunc={handleClose}
-      message="We will send you our best offers, once a week."
-    />
   </Container>)
 }
 
