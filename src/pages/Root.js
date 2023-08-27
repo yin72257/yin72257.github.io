@@ -11,10 +11,19 @@ const theme = createTheme({
 		},
 		secondary: {
 			main: "#ce93d8",
-			light: "#f5e9f7"
+			light: "#f5e9f7",
 		},
 	},
+	typography: {
+		fontFamily: "'Work Sans', sans-serif",
+		fontSize: 14,
+		fontWeightLight: 300, // Work Sans
+		fontWeightRegular: 400, // Work Sans
+		fontWeightMedium: 700, // Roboto Condensed
+	},
 });
+
+
 
 function RootLayout() {
 	// const navigation = useNavigation();
