@@ -1,4 +1,4 @@
-import { Button, Box, Container, Grid } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 import Typography from "./UI/Typography";
 const AboutMe = () => {
 	return (
@@ -12,32 +12,17 @@ const AboutMe = () => {
 						sx={{
 							display: "flex",
 							justifyContent: "center",
-							bgcolor: "warning.main",
+							bgcolor: "primary.main",
 							py: 8,
 							px: 3,
 						}}
 					>
 						<Box component="form" sx={{ maxWidth: 400 }}>
-							<Typography
-								variant="h2"
-								component="h2"
-								gutterBottom
-							>
-								Receive offers
-							</Typography>
-							<Typography variant="h5">
-								Taste the holidays of the everyday close to
-								home.
-							</Typography>
+							<Typography variant="h5" color="white">
+                Outside the world of code, I'm jamming on my saxophone with the Jazz Band or shooting hoops at the local court. I'm a proud member of the NUS FinTech Society and have a soft spot for volunteering, especially when it involves volunteering at the Apex Harmony Lodge or assisting at the Willing Hearts organization.
 
-							<Button
-								type="submit"
-								color="primary"
-								variant="contained"
-								sx={{ width: "100%" }}
-							>
-								Keep me updated
-							</Button>
+
+							</Typography>
 						</Box>
 					</Box>
 				</Grid>
@@ -50,18 +35,7 @@ const AboutMe = () => {
 						position: "relative",
 					}}
 				>
-					<Box
-						sx={{
-							position: "absolute",
-							top: -67,
-							left: -67,
-							right: 0,
-							bottom: 0,
-							width: "100%",
-							background:
-								"url(/static/themes/onepirate/productCTAImageDots.png)",
-						}}
-					/>
+					
 					<Box
 						component="img"
 						src="https://images.unsplash.com/photo-1527853787696-f7be74f2e39a?auto=format&fit=crop&w=750"
