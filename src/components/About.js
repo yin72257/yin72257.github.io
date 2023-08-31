@@ -23,6 +23,12 @@ const About = () => {
 			<Container
 				sx={{ mt: 15, mb: 30, display: "flex", position: "relative" }}
 			>
+				<Box
+					component="img"
+					src="/images/curvyLines.png"
+					alt="curvy lines"
+					sx={{ pointerEvents: 'none', position: 'absolute', top: -180 }}
+					/>
 				<Box sx={item}>
 					<Typography variant="h4" sx={{ my: 5 }}>
 						{"Hey there! I'm Yin Ruohang"}

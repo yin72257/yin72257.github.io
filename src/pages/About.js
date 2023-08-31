@@ -1,5 +1,6 @@
 import About from "../components/About";
 import AboutMe from "../components/AboutMe";
+import AboutSummary from "../components/AboutSummary";
 import PageContent from "../components/PageContent";
 
 function AboutPage() {
@@ -7,7 +8,7 @@ function AboutPage() {
 		<PageContent title="Welcome!">
 			<About />
 			<AboutMe />
-			<About />
+			<AboutSummary />
 		</PageContent>
 	);
 }
