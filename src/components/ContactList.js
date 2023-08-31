@@ -5,7 +5,8 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Typography from "./UI/Typography";
 import { Link } from "react-router-dom";
-import Tooltip from "@mui/material/Tooltip";
+import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
+import { styled } from "@mui/material/styles";
 
 const item = {
     display: "flex",
@@ -13,6 +14,17 @@ const item = {
     alignItems: "center",
     px: 5,
 };
+
+const ImageToolTip = styled(({ className, ...props }) => (
+    <Tooltip {...props} classes={{ popper: className }} />
+))(({ theme }) => ({
+    [`& .${tooltipClasses.tooltip}`]: {
+        backgroundColor: "#ffffff",
+        color: "rgba(0, 0, 0, 0.87)",
+        boxShadow: theme.shadows[1],
+        fontSize: 11,
+    },
+}));
 
 function ContactList() {
     return (
@@ -28,7 +40,7 @@ function ContactList() {
                 sx={{ mt: 15, mb: 30, display: "flex", position: "relative" }}
             >
                 <Grid container spacing={5}>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={6}>
                         <Box sx={item}>
                             <Tooltip title="My Profile">
                                 <Link to="https://www.linkedin.com/in/ruohang-yin-5698621b4/">
@@ -45,7 +57,7 @@ function ContactList() {
                             </Typography>
                         </Box>
                     </Grid>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={6}>
                         <Box sx={item}>
                             <Tooltip title="My Profile">
                                 <Link to="https://github.com/yin72257">
@@ -68,7 +80,7 @@ function ContactList() {
                                 component="img"
                                 src="/images/contactlogos/gmail.png"
                                 alt="mail"
-                                sx={{ height: 55, mt: 3, mb: 3 }}
+                                sx={{ height: 100 }}
                             />
                             <Typography variant="h6" sx={{ mt: 5, mb: 3 }}>
                                 Email
@@ -83,7 +95,34 @@ function ContactList() {
                             </Typography>
                         </Box>
                     </Grid>
-                    <Grid item xs={12} md={6}>
+
+                    <Grid item xs={12} md={4}>
+                        <Box sx={item}>
+                            <ImageToolTip
+                                placement="top"
+                                title={
+                                    <Box
+                                        component="img"
+                                        sx={{ height: 300 }}
+                                        alt="wechat qr"
+                                        src="/images/wechatqr.png"
+                                    />
+                                }
+                            >
+                                <Box
+                                    component="img"
+                                    src="/images/contactlogos/wechat.png"
+                                    alt="wechat"
+                                    sx={{ height: 100 }}
+                                />
+                            </ImageToolTip>
+                            <Typography variant="h6" sx={{ mt: 5, mb: 3 }}>
+                                WeChat
+                            </Typography>
+                            <Typography variant="h5">yruohang</Typography>
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12} md={4}>
                         <Box sx={item}>
                             <Box
                                 component="img"
@@ -95,20 +134,6 @@ function ContactList() {
                                 Phone Number
                             </Typography>
                             <Typography variant="h5">+65 90252936</Typography>
-                        </Box>
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                        <Box sx={item}>
-                            <Box
-                                component="img"
-                                src="/images/contactlogos/wechat.png"
-                                alt="wechat"
-                                sx={{ height: 100 }}
-                            />
-                            <Typography variant="h6" sx={{ mt: 5, mb: 3 }}>
-                                WeChat ID
-                            </Typography>
-                            <Typography variant="h5">yruohang</Typography>
                         </Box>
                     </Grid>
                 </Grid>
