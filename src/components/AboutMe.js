@@ -20,8 +20,6 @@ const AboutMe = () => {
 						<Box component="form" sx={{ maxWidth: 400 }}>
 							<Typography variant="h5" color="white">
                 Outside the world of code, I'm jamming on my saxophone with the Jazz Band or shooting hoops at the local court. I'm a proud member of the NUS FinTech Society and have a soft spot for volunteering, especially when it involves volunteering at the Apex Harmony Lodge or assisting at the Willing Hearts organization.
-
-
 							</Typography>
 						</Box>
 					</Box>

@@ -35,7 +35,7 @@ const About = () => {
 					</Typography>
 					<Typography variant="h5">
 						{
-							"I'm currently navigating the world of computer science at the National University of Singapore. "
+							"I'm currently navigating the world of computer science at the National University of Singapore with very strong academic performance. "
 						}
 						
 						{
@@ -43,7 +43,7 @@ const About = () => {
 						}
 						
 						{
-							"I've dabbled in everything from Kubernetes to Blockchain, and I'm always on the lookout for the next big thing in tech."
+							"I've dabbled in everything from artificial intelligence to cloud computing, and I'm always on the lookout for the next big thing in tech."
 						}
 					</Typography>
 				</Box>
