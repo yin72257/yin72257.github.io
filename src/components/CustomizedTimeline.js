@@ -7,9 +7,11 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Box from "@mui/material/Box";
-import ComputerIcon from '@mui/icons-material/Computer';
-import CurrencyBitcoinIcon from '@mui/icons-material/CurrencyBitcoin';
+import ComputerIcon from "@mui/icons-material/Computer";
+import CurrencyBitcoinIcon from "@mui/icons-material/CurrencyBitcoin";
 import Typography from "./UI/Typography";
+import { Link } from "react-router-dom";
+import { Tooltip } from "@mui/material";
 
 export default function CustomizedTimeline() {
     return (
@@ -25,14 +27,20 @@ export default function CustomizedTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="primary">
-                        <Box
-                            component="img"
-                            src="/logo192.png"
-                            alt="react"
-                            sx={{ height: 25 }}
-                        />
-                    </TimelineDot>
+                    <Tooltip title="Details">
+                        <Link to="react">
+                            <TimelineDot color="primary">
+                                <Box
+                                    to="react"
+                                    component="img"
+                                    src="/logo192.png"
+                                    alt="react"
+                                    sx={{ height: 25 }}
+                                />
+                            </TimelineDot>{" "}
+                        </Link>
+                    </Tooltip>
+
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
@@ -52,14 +60,16 @@ export default function CustomizedTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="secondary">
-                        <Box
-                            component="img"
-                            src="/images/projecticons/kubernetes.png"
-                            alt="k8s"
-                            sx={{ height: 25 }}
-                        />
-                    </TimelineDot>
+                    <Link to="sspe">
+                        <TimelineDot color="secondary">
+                            <Box
+                                component="img"
+                                src="/images/projecticons/kubernetes.png"
+                                alt="k8s"
+                                sx={{ height: 25 }}
+                            />
+                        </TimelineDot>
+                    </Link>
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
@@ -83,14 +93,16 @@ export default function CustomizedTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="primary" variant="outlined">
-                        <Box
-                            component="img"
-                            src="/images/projecticons/zendesk.png"
-                            alt="zendesk"
-                            sx={{ width: 25, paddingY: 0.5 }}
-                        />
-                    </TimelineDot>
+                    <Link to="zendesk">
+                        <TimelineDot color="primary" variant="outlined">
+                            <Box
+                                component="img"
+                                src="/images/projecticons/zendesk.png"
+                                alt="zendesk"
+                                sx={{ width: 25, paddingY: 0.5 }}
+                            />
+                        </TimelineDot>
+                    </Link>
                     <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
@@ -113,9 +125,11 @@ export default function CustomizedTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-                    <TimelineDot color="primary">
-                        <ComputerIcon />
-                    </TimelineDot>
+                    <Link to="flexsolver">
+                        <TimelineDot color="primary">
+                            <ComputerIcon />
+                        </TimelineDot>
+                    </Link>
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
@@ -139,14 +153,16 @@ export default function CustomizedTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="primary" variant="outlined">
-                        <Box
-                            component="img"
-                            src="/images/projecticons/x.png"
-                            alt="xfers"
-                            sx={{ height: 25 }}
-                        />
-                    </TimelineDot>
+                    <Link to="xfers">
+                        <TimelineDot color="primary" variant="outlined">
+                            <Box
+                                component="img"
+                                src="/images/projecticons/x.png"
+                                alt="xfers"
+                                sx={{ height: 25 }}
+                            />
+                        </TimelineDot>
+                    </Link>
                     <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
@@ -169,9 +185,12 @@ export default function CustomizedTimeline() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-                    <TimelineDot color="secondary">
-                        <CurrencyBitcoinIcon />
-                    </TimelineDot>
+                    <Link to="dtc">
+                        <TimelineDot color="secondary">
+                            <CurrencyBitcoinIcon />
+                        </TimelineDot>
+                    </Link>
+
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
