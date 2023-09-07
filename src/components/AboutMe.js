@@ -4,7 +4,7 @@ const AboutMe = () => {
 	return (
 		<Container
 			component="section"
-			sx={{ mt: 10, display: "flex", backgroundColor: "white", mb: 10 }}
+			sx={{ mt: 10, display: "flex", backgroundColor: "white", mb: 10, textAlign: "center" }}
 		>
 			<Grid container>
 				<Grid item xs={12} md={6} sx={{ zIndex: 1 }}>

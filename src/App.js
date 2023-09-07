@@ -10,7 +10,7 @@ import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
 import ErrorPage from "./pages/Error";
 import ProjectsPage from "./pages/Projects";
-import ProjectDetail from "./pages/ProjectDetail";
+import ProjectDetailPage from "./pages/ProjectDetail";
 
 const router = createBrowserRouter([
 	{
@@ -22,12 +22,12 @@ const router = createBrowserRouter([
 			{ path: "contact", element: <ContactPage /> },
 			{ path: "projects", children:[
 				{ index: true, element: <ProjectsPage />},
-				{ path: "react", element: <ProjectDetail name="react"/> },
-				{ path: "sspe", element: <ProjectDetail name="sspe"/> },
-				{ path: "zendesk", element: <ProjectDetail name="zendesk"/> },
-				{ path: "flexsolver", element: <ProjectDetail name="flexsolver"/> },
-				{ path: "xfers", element: <ProjectDetail name="xfers"/> },
-				{ path: "dtc", element: <ProjectDetail name="dtc"/> },
+				{ path: "react", element: <ProjectDetailPage name="react"/> },
+				{ path: "sspe", element: <ProjectDetailPage name="sspe"/> },
+				{ path: "zendesk", element: <ProjectDetailPage name="zendesk"/> },
+				{ path: "flexsolver", element: <ProjectDetailPage name="flexsolver"/> },
+				{ path: "xfers", element: <ProjectDetailPage name="xfers"/> },
+				{ path: "dtc", element: <ProjectDetailPage name="dtc"/> },
 			] },
 		],
 	},
