@@ -1,43 +1,10 @@
+# Navigating the Blockchain In NUS FinTech Society: A Collaborative Endeavor with StraitsX
+Between February and May of 2021, I had the privilege of spearheading a dynamic team of seven at the NUS FinTech society. Our mission was clear yet challenging: develop a website capable of analyzing blockchain transactions and assign a risk value based on intricate metrics derived from account histories. This ambitious project was undertaken in partnership with the Singaporean FinTech company, Xfers, now popularly known as StraitsX.
 
-This blog post shows a few different types of content that are supported and styled with
-Material styles. Basic typography, images, and code are all supported.
-You can extend these by modifying `Markdown.js`.
+Our team was a blend of expertise and enthusiasm. Comprising four computer science undergrads and three students from the school of business, we combined our strengths to bring this project to fruition. The business students delved deep into the realm of blockchain, researching potential risk factors associated with transactions. On the other hand, we, the tech enthusiasts, rolled up our sleeves to craft a responsive website. Harnessing the power of HTML and CSS, and integrating API calls to Etherscan via Javascript, we ensured the site was both functional and user-friendly.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Collaboration was at the heart of our endeavor. Regular meetings with the Xfers liaison ensured we remained aligned with their vision and expectations. These interactions were invaluable, offering insights, feedback, and direction. Internally, task delegation was crucial. Recognizing the diverse skill sets and resources within our team, I meticulously assigned roles, ensuring each member could shine and contribute effectively.
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
+Of course, our journey wasn't devoid of challenges. From bridging the skill gap among team members to navigating technical roadblocks, we faced our fair share of hurdles. Yet, with determination, collaboration, and a shared vision, we overcame each obstacle, learning and growing along the way.
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
-
-## Heading
-
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Sub-heading 1
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-### Sub-heading 2
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
-
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+Our efforts culminated in a successful project, a testament to our hard work and dedication. I'm proud to share that our results have been showcased on the StraitsX website. [Here's a glimpse of our accomplishment](https://www.straitsx.com/blog-post/nus-fintech-society-partners-with-xfers-on-industry-project). This experience underscored the power of teamwork, the importance of cross-disciplinary collaboration, and the endless possibilities within the FinTech realm.

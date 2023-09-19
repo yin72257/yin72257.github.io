@@ -1,43 +1,11 @@
+# A Summer of Code: My Internship Journey with FlexSolver
 
-This blog post shows a few different types of content that are supported and styled with
-Material styles. Basic typography, images, and code are all supported.
-You can extend these by modifying `Markdown.js`.
+In the summer of 2021, I embarked on an enriching journey with FlexSolver, a renowned software engineering firm nestled in the heart of Singapore. Renowned for its prowess in sales and customer management systems, FlexSolver presented me with the perfect platform to dive deep into the world of backend engineering.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+My primary assignment was an intriguing project for a local Food and Beverage magnate, Tipsy Collective. They envisioned an overhaul of their existing CRM (Customer Relationship Management) system. The challenge? Transitioning from vanilla Javascript NodeJS with Express to the more robust NestJS, all while embracing the nuances of Typescript. But that wasn't all. Tipsy Collective also aspired to launch a customer-centric mobile app, empowering patrons to seamlessly place orders and settle bills. This translated to a comprehensive rewrite of the backend, peppered with a slew of new features. Collaborating closely with a fellow intern, who was weaving magic on the frontend using AngularJS, we transformed this vision into a tangible product. Today, this revamped system stands as a testament to our dedication, actively serving Tipsy Collective and its clientele.
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
+This internship was my maiden voyage into the full-time realm of software engineering. The learning curve was steep, but incredibly rewarding. I was introduced to the rhythmic dance of agile development, the meticulous art of crafting test suites, and the intricate choreography of User Acceptance Tests. Beyond the technicalities, I gleaned insights into the delicate dynamics between clients and engineers. Deciphering client requirements, translating them into actionable tasks, and ensuring their seamless execution became second nature.
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+But FlexSolver had more in store for me. Beyond my primary project, I had the privilege of collaborating with seasoned professionals on pioneering proof-of-concept endeavors. One such venture involved integrating an external vendor's API for a 'buy and collect' mechanism with our proprietary point-of-sale system. These explorations demystified the genesis of software engineering ideas, their evolution, and the intricate interplay of diverse systems and APIs.
 
-## Heading
-
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Sub-heading 1
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-### Sub-heading 2
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
-
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+Reflecting on my summer at FlexSolver, I'm filled with gratitude. The skills acquired, the challenges conquered, and the camaraderie forged have indelibly shaped my perspective on software engineering.

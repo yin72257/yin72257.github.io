@@ -1,43 +1,13 @@
+# Building a Serverless Stream Processing Engine: A Deep Dive into Cloud Native Solutions
 
-This blog post shows a few different types of content that are supported and styled with
-Material styles. Basic typography, images, and code are all supported.
-You can extend these by modifying `Markdown.js`.
+In the ever-evolving world of cloud computing, I recently embarked on an exciting journey alongside Professor Ma Tianbai at NUS. Our mission? To design and develop a cloud-native serverless stream processing engine, harnessing the power of Functions-as-a-Service (FaaS) and the robust Kubernetes framework.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Collaborating with a team of dedicated PhD students, I've been immersed in the intricacies of running services in cloud environments. This experience has not only enriched my technical prowess but also offered invaluable insights into the nuances of academic research.
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
+To lay a solid foundation, I began by acquainting myself with established stream processing engines, with Apache Flink standing out as a notable example. Grasping the underlying theories and principles of these engines such as exact-once processing and fault tolerance was crucial, ensuring I had a comprehensive understanding of the design and implementation nuances.
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+As our focus shifted to identifying potential open-source FaaS frameworks, I delved into Fission. This remarkable framework, built atop Kubernetes, caught our attention due to its seamless integration and utilization of Kubernetes' features. Fission's capabilities and adaptability made it a prime candidate for our project's requirements. To introduce this to the team, I made a presentation going over the potential of the framework and its inner workings.
 
-## Heading
+However, the heart of my responsibility lay in crafting the orchestration layer of our engine. This demanded a deep understanding of Kubernetes, pushing me to explore its vast ecosystem. I ventured into the realm of custom controllers, leveraging Custom Resource Definitions (CRDs) to manipulate and manage resources. This hands-on experience with Kubernetes' extensibility and customization options was both challenging and rewarding.
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Sub-heading 1
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-### Sub-heading 2
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
-
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+As we continue to forge ahead, the project remains a work in progress. The anticipation builds with each step, and I eagerly await the culmination of our collective efforts. The journey thus far has been a testament to the power of collaboration, innovation, and the limitless possibilities of cloud-native solutions.

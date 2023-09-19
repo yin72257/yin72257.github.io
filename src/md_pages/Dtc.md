@@ -1,43 +1,7 @@
+# A Dive into Blockchain with Digital Treasure Center
 
-This blog post shows a few different types of content that are supported and styled with
-Material styles. Basic typography, images, and code are all supported.
-You can extend these by modifying `Markdown.js`.
+In winter 2021, my intrigue with blockchain led me to Digital Treasure Center, a FinTech startup reshaping international payment remittance. As their Technology Intern, I was thrust into the heart of innovation, working directly under the CTO. My role? Simplifying blockchain's intricacies for potential investors and customers. This wasn't just about understanding blockchain but translating its complexities into relatable insights.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+But beyond blockchain, I was immersed in the vibrant startup culture. In this dynamic setting, adaptability and collaboration were the norms. The pace was fast, but the learning was profound. Hierarchies blurred, ideas flowed freely, and every team member, irrespective of their title, contributed passionately. The CTO, with his vast knowledge, became both a mentor and collaborator, making our brainstorming sessions a blend of challenge and inspiration.
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
-
-## Heading
-
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Sub-heading 1
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-### Sub-heading 2
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
-
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+As my internship concluded, I left with more than technical prowess. I experienced the essence of a startup - its drive, vision, and spirit. It was a transformative winter, equipping me with insights into blockchain's potential and the vibrant energy of startup life.

@@ -1,43 +1,30 @@
+# My Deep Dive into Backend Development at Zendesk
 
-This blog post shows a few different types of content that are supported and styled with
-Material styles. Basic typography, images, and code are all supported.
-You can extend these by modifying `Markdown.js`.
+Embarking on a six-month internship at Zendesk, a leading customer service software company, was a thrilling prospect. With a keen interest in scalable architectures and backend intricacies, I was eager to immerse myself in the world of software engineering. Here's a snapshot of my journey, the challenges I faced, and the invaluable lessons I learned.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+### Running and Updating Live Services
+During my tenure at Zendesk, I delved deep into the intricacies of monitoring and enhancing live services in production. Datadog became an essential tool, offering real-time insights into our system's health and performance. Coupled with a suite of testing tools, I ensured the reliability of our services, automating tests for continuous integration and deployment. Service upgrades, executed with precision in live environments, were facilitated by platforms like AWS EC2 and containerization tools. This multifaceted experience equipped me with a holistic understanding of maintaining and evolving live digital services.
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+### Omnichannel Backend:
+One of the pivotal projects I contributed to was Zendesk's omnichannel backend program. The goal was to integrate all of Zendesk's products into a seamless workflow for customers. The team I was in was tasked with replacing the mediator service, which had its limitations, with a more scalable and reliable backend. This involved installing a new GraphQL resolver, demanding a deep dive into Java, RxJava, and functional programming. The challenge was not just in coding but in understanding and integrating with an existing complex infrastructure while monitoring and maintaining the existing infrastructure for customers' use.
 
-## Heading
+### Ops Duty - A Unique Rotation Role:
+Ops Duty was a revelation. This role had me juggling a myriad of responsibilities, from deployments to addressing customer queries and diving into ticket resolutions. It wasn't just about fixing issues; it was about understanding Zendesk's product from a user's perspective, liaising with non-engineering teams, and ensuring seamless communication. This role gave me a holistic view of how different teams within Zendesk function and collaborate.
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+### Infrastructure Management and Enhancements:
+My journey also led me to the realm of infrastructure management. Working with AWS EC2, kubernetes configurations, and understanding the intricacies of environments was both challenging and enlightening. I also had the opportunity to address production bugs, enhance service reliability, and immerse myself in regular SCRUM meetings.
 
-### Sub-heading 1
+## Key Takeaways:
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+**Technical Acumen**
 
-### Sub-heading 2
+My technical skills underwent a significant transformation. From honing my Java and RxJava skills to mastering GraphQL, Jenkins, Rspec, and infrastructure management tools like Terraform, every challenge added a new tool to my arsenal.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-sit amet risus.
+**Organizational and Industrial Insights**
 
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
+Beyond the technical, my stint at Zendesk offered a wealth of organizational insights. The Ops Duty role refined my communication skills, teaching me to liaise effectively with both technical and non-technical teams. Witnessing Zendesk's transition from a public entity to a private one provided a unique perspective on organizational dynamics and the broader business implications.
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+---
 
-1. Vestibulum id ligula porta felis euismod semper.
-1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-1. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+My six months at Zendesk were transformative. From grappling with complex backend challenges to understanding the broader organizational landscape, every day was a profound learning experience. As I look ahead, I'm equipped with a wealth of knowledge, skills, and experiences that will undoubtedly shape my future endeavors in backend and full-stack development.
