@@ -1,0 +1,7 @@
+# A Dive into Blockchain with Digital Treasure Center
+
+In winter 2021, my intrigue with blockchain led me to Digital Treasure Center, a FinTech startup reshaping international payment remittance. As their Technology Intern, I was thrust into the heart of innovation, working directly under the CTO. My role? Simplifying blockchain's intricacies for potential investors and customers. This wasn't just about understanding blockchain but translating its complexities into relatable insights.
+
+But beyond blockchain, I was immersed in the vibrant startup culture. In this dynamic setting, adaptability and collaboration were the norms. The pace was fast, but the learning was profound. Hierarchies blurred, ideas flowed freely, and every team member, irrespective of their title, contributed passionately. The CTO, with his vast knowledge, became both a mentor and collaborator, making our brainstorming sessions a blend of challenge and inspiration.
+
+As my internship concluded, I left with more than technical prowess. I experienced the essence of a startup - its drive, vision, and spirit. It was a transformative winter, equipping me with insights into blockchain's potential and the vibrant energy of startup life.
